@@ -11,8 +11,10 @@ const showList = (() => {fetch('/package/data/data.json')
                             <img src="${element.image}" alt="${element.title}">
                         </div>
 
-                        <div class="portfolio-info">
-                            <span>${element.category}</span>
+                         <div class="portfolio_info">
+                            <div class="portfolio_info_type ${element.category}">
+                                <span>${element.category}</span>
+                            </div>
                             <h3>${element.title}</h3>
                             <p>${element.description}</p>
                         </div>
