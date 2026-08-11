@@ -2,3 +2,26 @@ header{
     
 
 }
+.portfolioList{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:15px;
+}
+.portfolioList li{
+    width:150px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.07);
+
+}
+.portfolio-image{}
+.portfolio-info{}
+.portfolio-info span{}
+.portfolio-info h3{
+    font-size:18px;
+    text-align: center;
+}
+.portfolio-info p{
+    font-size:14px;
+    text-align: left;
+}
