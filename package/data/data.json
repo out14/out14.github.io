@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "title": "브랜드 웹사이트 리뉴얼",
+      "category": "design",
+      "thumbnail": "/package/assets/portfolio01.jpg",
+      "description": "브랜드 아이덴티티를 반영한 웹사이트 리뉴얼",
+      "year": "2026"
+    },
+    {
+      "id": 2,
+      "title": "카페 홈페이지",
+      "category": "publishing",
+      "thumbnail": "/package/assets/portfolio02.jpg",
+      "description": "카페 브랜드 홈페이지 제작",
+      "year": "2026"
+    }
+  ]
