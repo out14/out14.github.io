@@ -16,6 +16,7 @@ header{
     width:calc(33% - 15px);
     border-radius: 10px;
     box-shadow: 0px 3px 5px 6px rgba(0,0,0,0.07);
+    
 
 }
 .portfolio_image{
@@ -25,15 +26,22 @@ header{
 .portfolio_image image{ 
     object-fit: cover;
  }
-.portfolio_info{}
-.portfolio_info span{
+.portfolio_info{
+    padding:10px 15px;
+    box-sizing: border-box;
+
+}
+.portfolio_info_type{ text-align: center; }
+.portfolio_info_type span{
     padding: 5px;
     color:#fff;
+    display: inline-block;
+    border-radius: 2px;;
 }
-.portfolio_info span.design{
+.portfolio_info_type.design span{
     background-color: #f94eff;
 }
-.portfolio_info span.publishing{
+.portfolio_info_type.publishing span{
     background-color: #4ea5ff;
 }
 .portfolio_info h3{
