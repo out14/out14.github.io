@@ -10,10 +10,10 @@
             document.querySelector('header').innerHTML = html;
           });
     
-        fetch('/packge/components/footer.html')
+        fetch('/package/components/footer.html')
           .then(res => res.text())
           .then(html => {
-            document.querySelector('#footer').innerHTML = html;
+            document.querySelector('footer').innerHTML = html;
           });
       </script>
     <title>Portfolio</title>
@@ -21,7 +21,7 @@
 <body>
     <header></header>
     portfolio
-    <div id="footer"></div>
+    <footer></footer>
     
     
 </body>
