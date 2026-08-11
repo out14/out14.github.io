@@ -7,7 +7,7 @@ const showList = () => {fetch('/package/data/data.json')
                 const li = document.createElement('li');
                 li.innerHTML =`
                     <a href="#">
-                        <div class="portfolio-image">
+                        <div class="portfolio_image">
                             <img src="${element.image}" alt="${element.title}">
                         </div>
 
