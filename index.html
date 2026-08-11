@@ -6,13 +6,13 @@
     
     <title>Document</title>
     <script>
-        fetch('./package/components/header.html')
+        fetch('/package/components/header.html')
           .then(res => res.text())
           .then(html => {
             document.querySelector('header').innerHTML = html;
           });
     
-        fetch('./packge/components/footer.html')
+        fetch('/packge/components/footer.html')
           .then(res => res.text())
           .then(html => {
             document.querySelector('footer').innerHTML = html;
