@@ -8,9 +8,9 @@ header{
     position: relative;
 }
 .main_bg{
-    
+    width:640px;
     position: absolute;
-    left:0;
+    left:calc(50% - 320px);
     top:0;
     
 }
