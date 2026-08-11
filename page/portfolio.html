@@ -25,12 +25,12 @@
                     const li = document.createElement('li');
                     li.innerHTML =`
                         <a href="#">
-                            <div class="portfolio-image">
+                            <div class="portfolio_image">
                                 <img src="${element.image}" alt="${element.title}">
                             </div>
 
-                            <div class="portfolio-info">
-                                <span>${element.category}</span>
+                            <div class="portfolio_info">
+                                <span class="portfolio_info_type ${element.category}">${element.category}</span>
                                 <h3>${element.title}</h3>
                                 <p>${element.description}</p>
                             </div>
