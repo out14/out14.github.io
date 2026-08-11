@@ -7,6 +7,9 @@ header{
     align-items: flex-start;
     justify-content: flex-start;
     gap:15px;
+    width:90%;
+    max-width:1240px;
+    margin: auto;
 }
 .portfolioList li{
     width:150px;
