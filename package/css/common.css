@@ -8,3 +8,9 @@
     display: flex;
     align-items: baseline;
 }
+.header_ul li{}
+.header_ul li a{
+    font-size:16px;
+    color:#000;
+
+}
