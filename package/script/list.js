@@ -1,5 +1,5 @@
 
-const showList = (() => {fetch('/package/data/data.json')
+const showList = () => {fetch('/package/data/data.json')
         .then(res =>res.json())
         .then(data =>{
             const list = document.querySelector('.portfolioList');
@@ -24,5 +24,7 @@ const showList = (() => {fetch('/package/data/data.json')
             });
 
 
-})
-})
+        }) .catch(error => {
+            console.error('포트폴리오 데이터를 불러오지 못했습니다.', error);
+        });
+}
