@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.clearfix::after{ content: ''; clear: both; display: block; }
+.pc_cut { display: block; vertical-align: baseline; }
+.m_cut{ display: inline; vertical-align: baseline; }
+.pc_view { display: block ;  }
+.m_view { display: none ;   }

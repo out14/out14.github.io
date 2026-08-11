@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
+    <script>
+        fetch('./package/components/header.html')
+          .then(res => res.text())
+          .then(html => {
+            document.querySelector('#header').innerHTML = html;
+          });
+    
+        fetch('./packge/components/footer.html')
+          .then(res => res.text())
+          .then(html => {
+            document.querySelector('#footer').innerHTML = html;
+          });
+      </script>
+    
 </head>
 <body>
-    Hello World!!!
+    <header></header>
+    include test
+    <footer></footer>
 </body>
 </html>
