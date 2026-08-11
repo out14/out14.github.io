@@ -13,7 +13,7 @@
         fetch('/packge/components/footer.html')
           .then(res => res.text())
           .then(html => {
-            document.querySelector('footer').innerHTML = html;
+            document.querySelector('#footer').innerHTML = html;
           });
       </script>
     <title>Portfolio</title>
@@ -21,7 +21,8 @@
 <body>
     <header></header>
     portfolio
-    <footer></footer>
+    <div id="footer"></div>
+    
     
 </body>
 </html>

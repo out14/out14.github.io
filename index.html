@@ -12,7 +12,7 @@
             document.querySelector('header').innerHTML = html;
           });
     
-        fetch('/packge/components/footer.html')
+        fetch('/packge/components/#footer.html')
           .then(res => res.text())
           .then(html => {
             document.querySelector('footer').innerHTML = html;
@@ -22,7 +22,7 @@
 </head>
 <body>
     <header></header>
-    include test!!!!@@@
-    <footer></footer>
+    include test!!!!
+    <div id="footer"></div>
 </body>
 </html>
