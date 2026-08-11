@@ -45,6 +45,9 @@ ol, ul, li {
     display: block;
     width: initial;
 }
+li{
+    width: initial;
+}
 blockquote, q {
 	quotes: none;
 }
