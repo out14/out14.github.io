@@ -42,6 +42,8 @@ body {
 .wife{ font-family: 'wife', '돋움', Sans-serif; }
 ol, ul, li {
 	list-style: none;
+    display: block;
+    width: initial;
 }
 blockquote, q {
 	quotes: none;
