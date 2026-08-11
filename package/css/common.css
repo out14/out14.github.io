@@ -4,3 +4,7 @@
 .m_cut{ display: inline; vertical-align: baseline; }
 .pc_view { display: block ;  }
 .m_view { display: none ;   }
+.header_ul{
+    display: flex;
+    align-items: baseline;
+}
