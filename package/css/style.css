@@ -19,6 +19,33 @@ header{
     left:0;
     top:0;
 }
+.main_img{
+    border:1px solid red;
+    width:90%;
+    max-width:600px;
+    height:600px;
+    position: relative;
+}
+.main_img_code{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.main_img_design{
+    position: absolute;
+    left: calc(50% - 200px);
+    top:0;
+}
+.main_img_node{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.main_img_bottole{
+    position: absolute;
+    left: calc(50% - 200px);
+    bottom:0;
+}
 .portfolioList{
     display: flex;
     align-items: flex-start;
