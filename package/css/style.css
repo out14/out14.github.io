@@ -32,6 +32,8 @@
     font-size:80px;
     text-align: center;
     color:var(--text-color);
+    z-index: 2;
+    font-weight: 700;
 }
 .main_img{
     width:90%;
