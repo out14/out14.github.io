@@ -68,7 +68,7 @@
     bottom:0;
     width:40%;
 }
-.main_wave_wrap{
+/* .main_wave_wrap{
     position: relative;
     overflow: hidden;
     border: 1px solid red;
@@ -90,33 +90,22 @@
     border-radius: 43%;
     animation: drift 3000ms infinite linear;
 }
-.wave.-three {
+.wave_three {
     animation: drift 5000ms infinite linear;
 }
   
-.wave.-two {
+.wave_two {
     animation: drift 7000ms infinite linear;
     opacity: .1;
     background: yellow;
 }
   
-.box:after {
-    content: '';
-    display: block;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(#e8a, 1), rgba(#def, 0) 80%, rgba(white, .5));
-    z-index: 11;
-    transform: translate3d(0, 0, 0);
-}
 
 @keyframes drift {
     from { transform: rotate(0deg); }
     from { transform: rotate(360deg); }
   }
-  
+   */
 
 .main_feature{
     border-radius: 20px;
@@ -143,6 +132,7 @@
     height:100%;
     position: absolute;
     right:10px;
+    top:0;
     background-color: var(--text-color);
 
 }
