@@ -1,7 +1,4 @@
-header{
-    
-
-}
+/***** 메인페이지 ****/
 .main{
     width:100%;
     position: relative;
@@ -27,10 +24,19 @@ header{
     top:0;
     z-index: -1;
 }
+.main_txt{
+    width:100%;
+    position: absolute;
+    left:0;
+    top:calc(50% - 40px);
+    font-size:80px;
+    text-align: center;
+    color:var(--text-color);
+}
 .main_img{
     width:90%;
     max-width:600px;
-    height:630px;
+    height:620px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -44,8 +50,8 @@ header{
 .main_img_design{
     position: absolute;
     right:0;
-    top:0;
-    width:40%;
+    top:23%;
+    width:50%;
 }
 .main_img_node{
     position: absolute;
@@ -60,6 +66,23 @@ header{
     bottom:0;
     width:40%;
 }
+.main_feature{
+    border-radius: 20px;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.08);    
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+}
+.main_feature_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/***** 포트폴리오 *****/
 .portfolioList{
     display: flex;
     align-items: flex-start;
