@@ -33,21 +33,21 @@ header{
     position: absolute;
     left: 0;
     top:0;
-    width:40%;
+    width:50%;
 }
 .main_img_design{
     position: absolute;
     left: calc(50% - 200px);
     top:0;
-    width:30%;
+    width:40%;
 }
 .main_img_node{
     position: absolute;
     right: 0;
     top:0;
-    width:15%;
+    width:40%;
 }
-.main_img_bottole{
+.main_img_bottle{
     position: absolute;
     /* left: calc(50% - 200px); */
     left:25%;
