@@ -12,10 +12,14 @@
     background:rgba(255,255,255,0.2);
     box-shadow: 0 2px 4px 5px rgba(0,0,0,0.07);
     z-index: 5;
+    padding: 20px 5%;
+    box-sizing: border-box;
 }
 .header_ul{
     display: flex;
     align-items: baseline;
+    justify-content: flex-end;
+    gap: 20px;
 }
 .header_ul li{}
 .header_ul li a{
