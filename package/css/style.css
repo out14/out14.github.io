@@ -4,15 +4,15 @@ header{
 }
 .main{
     width:100%;
-    height: 90vh;
     position: relative;
-    text-align: center;;
+    /* text-align: center;; */
 }
 .main_cnt{
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     flex-direction: column;
+    height: 90vh;
 }
 .main_bg{
     /* width:640px;
@@ -30,7 +30,7 @@ header{
 .main_img{
     width:90%;
     max-width:600px;
-    height:600px;
+    height:630px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -49,7 +49,7 @@ header{
 }
 .main_img_node{
     position: absolute;
-    left: 20%;
+    left: 50%;
     top:0;
     width:40%;
 }
