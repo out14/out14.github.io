@@ -68,49 +68,53 @@
     bottom:0;
     width:40%;
 }
-.main_wave{
+.main_wave_wrap{
     position: relative;
     overflow: hidden;
     border: 1px solid red;
     width:100%;
     height:300px;
-    background: linear-gradient(#3c5aff, #52f2fd);
+    transform: translate3d(0, 0, 0);
 }
-.main_wave_one{
-    width: 600px;
-    height: 600px;
+.main_wave{
+    opacity: .4;
     position: absolute;
-    top: -65%;
-    left: -30%;
-    border-radius: 45%;
-    background: rgba(3,169,244,0.8);
-    animation: move 3s infinite linear;
+    top: 3%;
+    left: 50%;
+    background: #0af;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px;
+    margin-top: -250px;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    animation: drift 3000ms infinite linear;
 }
-.main_wave_two{
-    width: 650px;
-    height: 650px;
-    position: absolute;
-    top: -90%;
-    left: -30%;
-    border-radius: 45%;
-    background: rgba(34,79,242,0.8);
-    animation: move 5s infinite linear;
+.wave.-three {
+    animation: drift 5000ms infinite linear;
 }
-.main_wave_three{
-    width: 650px;
-    height: 650px;
-    position: absolute;
-    top: -100%;
-    left: -30%;
-    border-radius: 45%;
-    background: #1d074b;
-    border: 6px solid rgba(131,119,152,0.7);
-    animation: move 7s infinite linear;
+  
+.wave.-two {
+    animation: drift 7000ms infinite linear;
+    opacity: .1;
+    background: yellow;
 }
-@keyframes move {
-    100% {
-      transform: rotate(360deg);
-    }
+  
+.box:after {
+    content: '';
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(#e8a, 1), rgba(#def, 0) 80%, rgba(white, .5));
+    z-index: 11;
+    transform: translate3d(0, 0, 0);
+}
+
+@keyframes drift {
+    from { transform: rotate(0deg); }
+    from { transform: rotate(360deg); }
   }
   
 
@@ -121,12 +125,25 @@
     margin-left: auto;
     margin-right: auto;
     background: #fff;
+    padding: 15px 20px;
+    box-sizing: border-box;
 }
 .main_feature_list{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
+}
+.main_feature_list li{
+    position: relative;
+}
+.main_feature_list li:not(:last-child)::after{
+    content: '';
+    width: 1px;
+    height:100%;
+    position: absolute;
+    right:10px;
+    background-color: var(--text-color);
 
 }
 
