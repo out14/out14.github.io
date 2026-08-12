@@ -8,6 +8,12 @@ header{
     position: relative;
     text-align: center;;
 }
+.main_cnt{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
 .main_bg{
     /* width:640px;
     position: absolute;
@@ -22,7 +28,6 @@ header{
     z-index: -1;
 }
 .main_img{
-    border:1px solid red;
     width:90%;
     max-width:600px;
     height:600px;
