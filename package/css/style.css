@@ -2,6 +2,7 @@
 .main{
     width:100%;
     position: relative;
+    height: 90vh;
     /* text-align: center;; */
 }
 .main_cnt{
@@ -10,6 +11,10 @@
     justify-content: center;
     flex-direction: column;
     height: 90vh;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
 }
 .main_bg{
     /* width:640px;
@@ -106,7 +111,11 @@
     from { transform: rotate(360deg); }
   }
    */
+.main_body{
+ background: #fff;
+ width:100%;
 
+}
 .main_feature{
     border-radius: 20px;
     box-shadow: 0px 5px 8px rgba(0,0,0,0.08);    
@@ -116,6 +125,7 @@
     background: #fff;
     padding: 15px 20px;
     box-sizing: border-box;
+    transform: translateY(-200px);
 }
 .main_feature_list{
     display: flex;
