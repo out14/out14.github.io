@@ -100,6 +100,9 @@
 .main_feature_list li{
     position: relative;
     text-align: center;
+    flex-basis: 25%;
+    padding:0 10px;
+    box-sizing: border-box;
 }
 .main_feature_list li::before{
     content: '';
@@ -115,7 +118,7 @@
     width: 1px;
     height:100%;
     position: absolute;
-    right:10px;
+    right:0px;
     top:0;
     background-color: var(--text-color);
 }
