@@ -122,13 +122,19 @@
     top:0;
     background-color: var(--text-color);
 }
-.main_feature_list li > img { width: 80px; }
-.main_feature_list li h3{
+.main_feature_list_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main_feature_list_item > img { width: 80px; }
+.main_feature_list_item h3{
     font-size:18px;
     font-weight: 500;
     margin-bottom: 15px;
 }
-.main_feature_list li p{
+.main_feature_list_item p{
     font-size:16px;
     font-weight:400;
     line-height: 1.3;
