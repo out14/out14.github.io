@@ -76,15 +76,17 @@
     width:40%;
 }
 .main_body{
- background: #fff;
- width:100%;
-
+    background: #fff;
+    width:100%;
+}
+.main_body_cnt{
+    max-width:1100px;
+    width:90%;
 }
 .main_feature{
     border-radius: 20px;
     box-shadow: 0px 5px 8px rgba(0,0,0,0.08);    
-    max-width:1100px;
-    width:90%;
+    width:100%;
     margin-left: auto;
     margin-right: auto;
     background: #fff;
