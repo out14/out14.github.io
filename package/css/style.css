@@ -83,7 +83,8 @@
 .main_feature{
     border-radius: 20px;
     box-shadow: 0px 5px 8px rgba(0,0,0,0.08);    
-    width:1000px;
+    max-width:1100px;
+    width:90%;
     margin-left: auto;
     margin-right: auto;
     background: #fff;
@@ -112,6 +113,7 @@
     position: absolute;
     left:calc(50% - 40px);
     top:0;
+    z-index: -1;
 }
 .main_feature_list li:not(:last-child)::after{
     content: '';
@@ -128,7 +130,13 @@
     align-items: center;
     justify-content: center;
 }
-.main_feature_list_item dt { width: 80px; height:80px }
+.main_feature_list_item dt { 
+    width: 80px; 
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .main_feature_list_item dt img { width: 100%;  }
 .main_feature_list_item h3{
     font-size:18px;
@@ -139,6 +147,11 @@
     font-size:16px;
     font-weight:400;
     line-height: 1.3;
+    word-break: keep-all;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
 }
 
 /***** 포트폴리오 *****/
