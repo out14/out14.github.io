@@ -105,7 +105,7 @@
     content: '';
     width:40px;
     height: 40px;
-    background-image: image('/package/image/main_icon_bg.png') 0 0 no-repeat;
+    background: url('/package/image/main_icon_bg.png') center no-repeat;
     position: absolute;
     left:calc(50% - 20px);
     top:0;
@@ -119,6 +119,7 @@
     top:0;
     background-color: var(--text-color);
 }
+.main_feature_list li > img { width: 80px; }
 .main_feature_list li h3{
     font-size:18px;
     font-weight: 500;
