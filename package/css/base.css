@@ -114,7 +114,7 @@ h1::selection, h2::selection, h3::selection, dt::selection, dd::selection, div::
 h4::selection, h5::selection, p::selection, label::selection, img::selection, 
 th::selection, td::selection, table::selection, tr::selection, b::selection,
 a::selection, li::selection, span::selection, strong::selection 
-{ background:#e26767; color:#fff; }
+{ background:var(--main-color); color:#fff; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
