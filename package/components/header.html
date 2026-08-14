@@ -7,13 +7,16 @@
 </head>
 <header class="header">
     <ul class="header_ul">
-        <li><a class="on" href="/index.html">Main</a></li>
-        <li><a href="/page/about.html">about</a></li>
-        <li><a href="/page/portfolio.html">Portfolio</a></li>
-        <li><a href="">Contact us</a></li>
+        <li><a id="index" href="/index.html">Main</a></li>
+        <li><a id="about" href="/page/about.html">about</a></li>
+        <li><a id="portfolio" href="/page/portfolio.html">Portfolio</a></li>
+        <li><a id="contact" href="">Contact us</a></li>
     </ul>
     <script>
-
-
+            const locationPath = window.location.pathname.split('/');
+            const pathFile = locationPath[locationPath.length - 1];
+            const pathName = pathFile.split('.')[0]
+            document.querySelector('header_ul li a').classList.add('on')
+            console.log('pathName')
     </script>
 </header>
