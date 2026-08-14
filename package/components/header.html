@@ -16,7 +16,21 @@
             const locationPath = window.location.pathname.split('/');
             const pathFile = locationPath[locationPath.length - 1];
             const pathName = pathFile.split('.')[0]
-            document.querySelector('header_ul li a').classList.add('on')
-            console.log('pathName')
+            console.log(pathName)
+
+            for(i = 0; i < document.querySelector('.header_ul li').length; i++ ){
+
+                const tab = document.querySelector('.header_ul li')[i];
+                if(
+                    tab.id==pathName
+                ){
+                    tab.classList.add('on')
+                } else {
+                    tab.classList.remove('on')
+                }
+
+            }
+            
+            
     </script>
 </header>
