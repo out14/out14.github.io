@@ -27,23 +27,12 @@
     about
     <footer></footer>
     <script>
-      const locationPath = window.location.pathname.split('/');
-          const pathFile = locationPath[locationPath.length - 1];
-          const pathName = pathFile.split('.')[0]
-          console.log(pathName)
+     const pathFile = window.location.pathname.split('/').pop();
+      const pathName = pathFile.split('.')[0];
 
-          for(i = 0; i < document.querySelector('.header_ul li').length; i++ ){
-
-              const tab = document.querySelector('.header_ul li')[i];
-              if(
-                  tab.id==pathName
-              ){
-                  tab.classList.add('on')
-              } else {
-                  tab.classList.remove('on')
-              }
-
-          }
+      document.querySelectorAll('.header_ul li').forEach(tab => {
+          tab.classList.toggle('on', tab.id === pathName);
+      });
     </script>
 </body>
 </html>
