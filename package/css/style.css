@@ -75,11 +75,11 @@
 }
 .main_img01{ 
     width:600px; 
-    transform: translateY(20px);
+    transform: translateY(10px);
 }
-.main_img01{ 
+.main_img02{ 
     width:400px; 
-    transform: translateY(-20px);
+    transform: translateY(-10px);
 }
 /* 
 .main_img_code{
@@ -187,8 +187,11 @@
     line-height: 1.3;
     word-break: keep-all;
 }
-.swiper {
-    width: 600px;
+.main_portfolio{ 
+    width: 100%;;
+ }
+.main_portfolio .swiper {
+    width:  100%;
     height: 300px;
 }
 
