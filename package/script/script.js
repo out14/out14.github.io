@@ -23,8 +23,11 @@ function activeMenu (){
     const pathName = pathFile.split('.')[0];
 
     document.querySelectorAll('.header_ul li').forEach(tab => {
-        tab.classList.toggle('on', tab.id === pathName);
+        tab.classList.add('on', tab.id === pathName);
+        console.log(tab.id,pathName)
     });
+
+    
 }
 
 loadHeader();
