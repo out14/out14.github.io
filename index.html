@@ -5,23 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script type="javascript/text" src="/package/script/script.js"></script>
     <title>디말퍼 demo</title>
     <link rel="stylesheet" href="/package/css/common.css">
     <link rel="stylesheet" href="/package/css/base.css">
     <link rel="stylesheet" href="/package/css/style.css">
 
     <script>
-        fetch('/package/components/header.html')
-          .then(res => res.text())
-          .then(html => {
-            document.querySelector('header').innerHTML = html;
-          });
-    
-        fetch('/package/components/footer.html')
-          .then(res => res.text())
-          .then(html => {
-            document.querySelector('footer').innerHTML = html;
-          });
+      loadHeader();
+      loadFooter();       
 
           
     </script>
@@ -169,12 +161,7 @@
 
 
         
-        const pathFile = window.location.pathname.split('/').pop();
-      const pathName = pathFile.split('.')[0];
-
-      document.querySelectorAll('.header_ul li').forEach(tab => {
-          tab.classList.toggle('on', tab.id === pathName);
-      });
+      
             
             
     </script>
