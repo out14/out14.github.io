@@ -27,4 +27,7 @@ function activeMenu (){
     });
 }
 
+loadHeader();
+loadFooter();
+
     
