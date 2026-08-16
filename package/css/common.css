@@ -29,7 +29,7 @@
 }
 .header_ul li a:hover{
     color:var(--main-color);
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 .header_ul li a.on::after{
     content: '';
@@ -44,5 +44,7 @@
 :root{
     --text-color:#232323;
     --main-color:#ad9880;
+    --sub1-color:#cda544;
+    --sub2-color:#d3ccc6;
 
 }

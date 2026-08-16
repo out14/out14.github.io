@@ -26,13 +26,6 @@
     <header></header>
     about
     <footer></footer>
-    <script>
-     const pathFile = window.location.pathname.split('/').pop();
-      const pathName = pathFile.split('.')[0];
-
-      document.querySelectorAll('.header_ul li').forEach(tab => {
-          tab.classList.toggle('on', tab.id === pathName);
-      });
-    </script>
+    <script src="/package/script/script.js"></script>
 </body>
 </html>

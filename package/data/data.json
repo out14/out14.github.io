@@ -1,18 +1,75 @@
 [
     {
       "id": 1,
-      "title": "브랜드 웹사이트 리뉴얼",
-      "category": "design",
-      "thumbnail": "/package/assets/portfolio01.jpg",
-      "description": "브랜드 아이덴티티를 반영한 웹사이트 리뉴얼",
-      "year": "2026"
+      "title": "야크마을 제주",
+      "category": ["design","publishing"],
+      "thumbnail": "/package/image/portfolio/main_yak.jpg",
+      "description": "야크마을 제주 디자인 & 퍼블리싱",
+      "year": "2026",
+      "link":"https://www.yakmaeul.com/"
     },
     {
       "id": 2,
-      "title": "카페 홈페이지",
-      "category": "publishing",
-      "thumbnail": "/package/assets/portfolio02.jpg",
-      "description": "카페 브랜드 홈페이지 제작",
-      "year": "2026"
+      "title": "충남 테크노파크",
+      "category": ["publishing"],
+      "thumbnail": "/package/image/portfolio/main_techno.jpg",
+      "description": "충남 테크노 파크 퍼블리싱",
+      "year": "2026",
+      "link":"https://ctpcar.or.kr/"
+      
+    },
+    {
+      "id": 3,
+      "title": "프리핀스",
+      "category": ["frontend"],
+      "thumbnail": "/package/image/portfolio/main_frefins.png",
+      "description": "프리핀스 ERP",
+      "year": "2026",
+      "link":""
+    },
+    {
+      "id": 4,
+      "title": "이지네트웍스",
+      "category": ["frontend"],
+      "thumbnail": "/package/image/portfolio/main_easy.png",
+      "description": "이지네트웍스 ERP",
+      "year": "2026",
+      "link":""
+    },
+    {
+      "id": 5,
+      "title": "돌고",
+      "category": ["publishing"],
+      "thumbnail": "/package/image/portfolio/main_dolgo.png",
+      "description": "돌고 퍼블리싱",
+      "year": "2026",
+      "link":"https://dolgo.org/"
+    },
+    {
+      "id": 6,
+      "title": "드림온코리아",
+      "category": ["publishing"],
+      "thumbnail": "/package/image/portfolio/main_dream.jpg",
+      "description": "드림온코리아 퍼블리싱",
+      "year": "2026",
+      "link":""
+    },
+    {
+      "id": 7,
+      "title": "현대카드노동조합",
+      "category": ["publishing"],
+      "thumbnail": "/package/image/portfolio/main_hyundai.jpg",
+      "description": "현대카드노동조합 퍼블리싱",
+      "year": "2026",
+      "link":""
+    },
+    {
+      "id": 8,
+      "title": "나사렛 국제 병원",
+      "category": ["publishing"],
+      "thumbnail": "/package/image/portfolio/main_nasaret.jpg",
+      "description": "나사렛 국제 병원",
+      "year": "2026",
+      "link":"https://www.nasaret.co.kr/"
     }
   ]

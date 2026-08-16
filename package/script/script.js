@@ -21,12 +21,17 @@ async function loadFooter (){
 function activeMenu (){
     const pathFile = window.location.pathname.split('/').pop();
     const pathName = pathFile.split('.')[0];
-
-    document.querySelectorAll('.header_ul li').forEach(tab => {
-        tab.classList.add('on', tab.id === pathName);
-        console.log(tab.id,pathName)
-    });
-
+    console.log('??',pathName)
+    if(pathName===''){
+        document.querySelector('.header_ul li')
+            .querySelector('a').classList.add('on')
+    }else{
+        document.querySelectorAll('.header_ul li').forEach(tab => {
+            const tabLink = tab.querySelector('a')
+            tabLink.classList.toggle('on', tab.id === pathName);
+            
+        });
+    }
     
 }
 
