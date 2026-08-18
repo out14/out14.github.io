@@ -24,11 +24,19 @@
     background:rgba(255,255,255,1);
     box-shadow: 0 2px 4px 5px rgba(0,0,0,0.07);
     z-index: 5;
-    padding: 0px 5%;
+    
+    
+}
+.header_cnt{
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
 }
 .header_logo{
     height:40px;
@@ -156,15 +164,18 @@
 .footer{
     margin-top: 120px;
     background: var(--dark-color);
-    padding:20px 5%;
+    padding:20px 0;
     box-sizing: border-box;
     width:100%;
 }
 .footer_inner{ 
-    width:100%;
+    width:90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 
  }
 .footer_logo{
