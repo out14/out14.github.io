@@ -4,7 +4,7 @@
       "title": "야크마을 제주",
       "category": ["design","publishing"],
       "thumbnail": "/package/image/portfolio/main_yak.jpg",
-      "description": "야크마을 제주 디자인 & 퍼블리싱",
+      "description": "<span>Web</span><span>반응형</span>",
       "year": "2026",
       "link":"https://www.yakmaeul.com/"
     },
@@ -13,7 +13,7 @@
       "title": "충남 테크노파크",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_techno.jpg",
-      "description": "충남 테크노 파크 퍼블리싱",
+      "description": "<span>Web</span><span>반응형</span>",
       "year": "2026",
       "link":"https://ctpcar.or.kr/"
       
@@ -23,7 +23,7 @@
       "title": "프리핀스",
       "category": ["frontend"],
       "thumbnail": "/package/image/portfolio/main_frefins.png",
-      "description": "프리핀스 ERP",
+      "description": "<span>Typescript</span><span>React</span>",
       "year": "2026",
       "link":""
     },
@@ -32,7 +32,7 @@
       "title": "이지네트웍스",
       "category": ["frontend"],
       "thumbnail": "/package/image/portfolio/main_easy.png",
-      "description": "이지네트웍스 ERP",
+      "description": "<span>Typescript</span><span>React</span>",
       "year": "2026",
       "link":""
     },
@@ -41,7 +41,7 @@
       "title": "돌고",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_dolgo.png",
-      "description": "돌고 퍼블리싱",
+      "description": "<span>Hybrid App</span><span>적응형</span>",
       "year": "2026",
       "link":"https://dolgo.org/"
     },
@@ -50,7 +50,7 @@
       "title": "드림온코리아",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_dream.jpg",
-      "description": "드림온코리아 퍼블리싱",
+      "description": "<span>Web</span><span>적응형</span>",
       "year": "2026",
       "link":""
     },
@@ -59,7 +59,7 @@
       "title": "현대카드노동조합",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_hyundai.jpg",
-      "description": "현대카드노동조합 퍼블리싱",
+      "description": "<span>Web</span><span>반응형</span>",
       "year": "2026",
       "link":""
     },
@@ -68,7 +68,7 @@
       "title": "나사렛 국제 병원",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_nasaret.jpg",
-      "description": "나사렛 국제 병원",
+      "description": "<span>Web</span><span>반응형</span>",
       "year": "2026",
       "link":"https://www.nasaret.co.kr/"
     }

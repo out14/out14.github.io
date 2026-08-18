@@ -51,7 +51,7 @@ async function mainPort(){
                 const div = document.createElement('div');
                 div.classList.add('swiper-slide')
                 div.innerHTML =`
-                    <a href="${element.link}" target="_blank">
+                    
                         <div class="portfolio_image">
                             <img src="${element.thumbnail}" alt="${element.title}">
                         </div>
@@ -62,10 +62,17 @@ async function mainPort(){
                                     <span class="${e}">${e}</span>
                                 `).join('')}
                             </div>
-                            <h3>${element.title}</h3>
-                            <p>${element.description}</p>
+                            <div class="portfolio_info_cnt">
+                                <div class="portfolio_info_text">
+                                    <h3>${element.title}</h3>
+                                    <p>${element.description}</p>
+                                </div>
+                                <a class="portfolio_info_btn" href="${element.link}" target="_blank">
+                                    <span></span>    
+                                </a>
+                            </div>
                         </div>
-                    </a>
+                    
                 `
                 list.appendChild(div);
         })

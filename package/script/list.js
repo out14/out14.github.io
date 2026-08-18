@@ -17,8 +17,10 @@ const showList = () => {fetch('/package/data/data.json')
                                     <span class="${e}">${e}</span>
                                 `).join('')}
                             </div>
-                            <h3>${element.title}</h3>
-                            <p>${element.description}</p>
+                            <div class="portfolio_info_text">
+                                <h3>${element.title}</h3>
+                                <p>${element.description}</p>
+                            </div>
                         </div>
                     </a>
                 `
@@ -62,8 +64,10 @@ const showFillter = (e) =>{
                                     <span class="${e}">${e}</span>
                                 `).join('')}
                             </div>
-                            <h3>${element.title}</h3>
-                            <p>${element.description}</p>
+                            <div class="portfolio_info_text">
+                                <h3>${element.title}</h3>
+                                <p>${element.description}</p>
+                            </div>
                         </div>
                     </a>
                 `
