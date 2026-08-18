@@ -475,9 +475,13 @@
   /** 768 이하 **/
   @media (max-width: 768px) {
     .main_txt_title{ font-size: 60px; }
-    .main_img01{ width: 80%; }
-    .main_img02{ width: 60%; }
-    .main_postit{ width:40%; }
+    .main_img01{ width: 100%; }
+    .main_img02{ width: 80%; }
+    .main_postit{ 
+        width:40%; 
+        right: -10%;
+        top:10px
+     }
     .main_feature_list_item dt {
         width: 50px;
         height: 50px;
@@ -502,6 +506,10 @@
 
   /** 480 이하 **/
   @media (max-width: 480px) {
+    .main_cnt{
+        padding-top: 60px;
+        box-sizing: border-box;
+    }
     .main_feature{
        transform: initial;
        padding: 20px 0% 120px;
