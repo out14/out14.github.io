@@ -273,6 +273,227 @@
     display: none;;
 }
 
+/**** 어바웃 ***/
+.about_main{
+    width:90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.about_main_img{ width:40%; }
+.about_main_txt{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.about_main_txt h5{
+    font-size: 14px;
+    font-weight: 500;
+    color:var(--sub1-color);
+}
+.about_main_txt h4{
+    font-size: 25px;
+    position: relative;
+    font-weight: 500;
+}
+.about_main_txt h3{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.2;;
+}
+.about_main_txt h3::after{
+    content: '';
+    display: block;
+    width:20px;
+    height: 2px;
+    background: var(--text2-color);
+    margin: 20px 0;
+}
+.about_main_txt h2{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.2;;
+    /* margin: 20px 0 ; */
+}
+.about_main_txt p{
+    font-size:16px;
+    line-height: 1.3;
+}
+
+.about_main_txt h4::after{
+    content: '';
+    width:100%;
+    height: 120%;
+    opacity: 0.5;
+    background:url('/package/image/underLine.png') center / contain no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -20%;
+    z-index: -1;
+}
+.about_sec_inner{
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.about_sec{
+    padding: 100px 0;
+    position: relative;
+}
+.about_sec01, .about_sec03{
+    background: rgba(0,0,0,0.05) ;
+}
+.about_sec_bg{
+    position: absolute;
+    
+    left:calc(50% - 600px);
+    bottom: 0;
+    opacity: 0.2;
+}
+.about_sec_bg01{
+    height:100%;
+}
+.about_sec_bg02{
+    height:100px;
+}
+.about_sec_bg03{
+    height:200px;
+}
+.about_sec_graphic{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: calc(100% - 400px);
+}
+.about_sec_graphic li{ flex-basis: 25%;}
+.about_sec02_graphic li{ flex-basis: 33%; position: relative; }
+.about_sec02_graphic li:not(:last-child)::after {
+    content: '';
+    width:1px;
+    height: 100%;
+    position: absolute;
+    background: var(--text2-color);
+    right:20px;
+    top:0;
+
+}
+.about_sec03_graphic li{ flex-basis: 33%;}
+.about_sec01_graphic dl dt{
+    font-size:20px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.about_sec01_graphic_img{
+    width:40px;
+    height: 40px;
+    margin-bottom: 10px;;
+}
+.about_sec01_graphic_img img{ 
+    max-width: 100%; 
+    max-height: 100%;;
+}
+.about_sec01_graphic li:not(:last-child) dl dd{
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.about_sec01_graphic dl dd.bar{
+    width: 100%;
+    border-bottom: 1px dashed var(--text2-color);
+    margin: 10px 0 20px;
+    position: relative;
+}
+.about_sec01_graphic li dl dd.bar::before{
+    content: '';
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border:2px solid var(--text-color);
+    position: absolute;
+    left:0;
+    top:calc(50% - 5px);
+    background: var(--white-color);
+}
+.about_sec01_graphic li:nth-child(2n+1) dl dd.bar::before{
+    background: var(--sub1-color);
+}
+.about_sec01_graphic dl dd h4{
+    font-size:16px;
+    font-weight: 600;
+    color: var(--text-color);
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+.about_sec01_graphic dl dd p{
+    font-size:14px;
+    font-weight: 400;
+    color: var(--text2-color);
+    line-height: 1.3;
+    word-break: keep-all;
+}
+.about_sec02_graphic{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.about_sec02_graphic li, .about_sec03_graphic li{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:20px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.about_sec02_graphic li:not(:last-child), .about_sec03_graphic li:not(:last-child){
+    padding-right: 20px;
+}
+.about_sec02_graphic li h3{
+    font-size:20px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.about_sec02_graphic li p{
+    font-size:14px;
+    font-weight: 400;
+    color: var(--text2-color);
+    line-height: 1.3;
+    word-break: keep-all;
+}
+.about_sec03_graphic h3{
+    font-size:20px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.about_sec03_graphic dl{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:5px;
+}
+.about_sec03_graphic dd {
+    border:1px solid var(--text-color);
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size:12px;
+    color: var(--text-color);
+    border-radius: 20px;
+}
+
+
 
 /***** 포트폴리오 *****/
 .portfolio_tab{ 
