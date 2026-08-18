@@ -156,7 +156,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+button{
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border:none;
+    background: none;;
+}
 .upper {text-transform:uppercase;}
 .active {z-index:1;}
 .txt_center {text-align:center;}
@@ -185,7 +191,7 @@ select::-ms-expand {display:none}
 ::-webkit-scrollbar{width: 10px;}
 ::-webkit-scrollbar-track {background-color:#f1f1f1;}
 ::-webkit-scrollbar-thumb {background-color:#dddddd;border-radius: 4px;}
-::-webkit-scrollbar-thumb:hover {background: #e26767;}
+::-webkit-scrollbar-thumb:hover {background: var(--main-color);}
 ::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
 width:10px;height:10px;background:#cecece;} 
 
