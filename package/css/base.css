@@ -2,7 +2,7 @@
 /* 나눔 붓글씨 */
 @import url('//fonts.googleapis.com/earlyaccess/nanumbrushscript.css');
 .nanum{
-    font-family: 'Nanum Brush Script', cursive; color: #9b652f;
+    font-family: 'Nanum Brush Script', cursive; 
 }
 
 /*프리텐다드*/

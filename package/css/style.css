@@ -83,6 +83,7 @@
     width:100%;
     position: relative;
     z-index: 2;    
+    padding-bottom: 100px;
 }
 .main_body_cnt{
     max-width:1100px;
@@ -192,6 +193,7 @@
     font-size:60px;
     font-weight: 500;;
     position: relative;
+    color: var(--sub1-color);
 }
 .main_portfolio_title h3::after{
     content: '';
@@ -272,6 +274,64 @@
 .main_portfolio_moblie{ 
     display: none;;
 }
+
+.main_about{ 
+    width:100%;
+    background: var(--sub2-color);
+    position: relative;
+    z-index: 2;
+ }
+ .main_about_inner{
+    max-width:90%;
+    width:1200px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .main_about_txt h3{
+    font-size: 50px;
+    color: var(--txt-color);
+    margin-bottom: 50px;;
+ }
+ .main_about_txt h3 span{
+    vertical-align: top;
+    position: relative;
+    font-size: 60px;
+    /* color: var(--white-color); */
+ }
+ .main_about_txt h3 span::after{
+    content: '';
+    width:140%;
+    height:100%;
+    position: absolute;
+    background: url('/package/image/ic_check.png')  center / contain no-repeat;
+    left:-20%;
+    top:0;
+    z-index: -1;
+ }
+ .main_about_txt p{
+    font-size:16px;
+    line-height: 1.2;
+    color: var(--txt-color);
+ }
+ .main_about_img{
+    height:100%;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: -1;
+    opacity: 0.5;
+ }
+ .main_about_img img{
+    height:100%;
+
+ }
+
 
 /**** 어바웃 ***/
 .about_main{
@@ -446,7 +506,7 @@
 }
 .about_sec02_graphic{
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: flex-start;
 }
 .about_sec02_graphic li, .about_sec03_graphic li{
@@ -532,9 +592,8 @@
     gap: 28px;
     width:90%;
     max-width:1200px;
-    margin: auto;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin: 100px auto;
 }
 .portfolioList li{
     /* max-width:300px; */
@@ -678,6 +737,12 @@
         top: 10%;
         background-color: var(--text-color);
     }
+    .about_main_txt h3 {
+        font-size: 20px;
+    }
+    .about_sec_graphic {
+        width: calc(100% - 250px);
+    }
     .portfolioList{
         gap: 2.5vw;
         margin-top: 50px;
@@ -691,6 +756,29 @@
         height: initial;
     }
 
+  }
+
+  /** 1024 이하 **/
+  @media (max-width: 1024px) {
+    .about_main_txt h4 { 
+        font-size:20px;
+     }
+    .about_sec_inner{
+        display: block;
+    }
+    .about_sec{
+        padding: 7vw 0;
+    }
+    .about_sec_graphic{ width:100%; }
+    .about_sec_bg01{
+        height: initial;
+    }
+    .about_sec_bg{ 
+        left: initial;
+        right:0;
+        max-width: 100%;;
+    }
+    
   }
 
   /** 768 이하 **/
@@ -723,6 +811,49 @@
         max-height: 40px;
     }
     .main_portfolio .swiper { margin-top: 50px; }
+    .main_about_inner{ height: initial; padding: 40px 0;overflow: hidden; }
+    .main_about_txt h3 {font-size: 30px;}
+    .main_about_txt h3 span{font-size: 30px;}
+    .main_about_img{
+        /* position: initial;
+        height:initial; */
+        width: 100%;
+        top:initial;
+        height: initial;
+        bottom: 0;
+        text-align: right;
+        opacity: 0.3;
+    }
+    
+    .main_about_img img{
+        width: 100%; 
+        max-width: 300px;
+        height: initial;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    .about_main_txt{ margin-bottom: 20px; }
+    .about_main{ display: block; }
+    .about_main_img{ 
+        width: 100%; 
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        display: block;
+    }
+    .about_sec_graphic{flex-wrap: wrap; gap:40px 0; }
+    .about_sec_graphic li{ flex-basis: 50%; }
+    .about_sec02_graphic li, .about_sec03_graphic li { gap: 10px; }
+    .about_sec02_graphic li:not(:first-child)::after {
+        display: none;
+    }
+    .about_sec02_graphic li:first-child::after {
+        right: 10px;
+    }
+    
+    /* .about_sec02_graphic li{flex-basis: 33%;  } */
   }
 
   /** 480 이하 **/
@@ -733,7 +864,7 @@
     }
     .main_feature{
        transform: initial;
-       padding: 20px 0% 120px;
+       padding: 20px 0% 100px;
        border-radius: 0px;
        box-shadow: initial;
        gap: 10px 0;
@@ -753,10 +884,68 @@
     .main_feature_list_item dt {
         margin:0 10px;
     }
+    .main_portfolio_title h3{ font-size: 40px; }
+    .main_portfolio_title h3::after{ height: 10px; }
     .main_portfolio_title .btn_type01{ 
         display: none;
      }
+    .main_portfolio .swiper{ margin-top: 30px; }
     .main_portfolio_moblie{ display: block; }
+
+    .about_main_txt h2 {font-size: 10vw;}
+    .about_main_txt p { font-size: 3.5vw;}
+    .about_main_txt h4 { font-size: 5vw;}
+    .about_sec_graphic{ flex-direction: column; gap: 0;}
+    .about_sec_graphic li{ flex-basis: 100%; }
+    .about_sec01_graphic li{  padding-left: 40px; position: relative }
+    .about_sec01_graphic li dd.bar{ display: none;}
+    .about_sec01_graphic li::before{
+        content: '';
+        height: 100%;
+        width: 1px;
+        display: block;
+        border-left: 1px dashed var(--text2-color);
+        position: absolute;
+        left: 5px;
+        top:0;
+    }
+    .about_sec01_graphic li::after{
+        content: '';
+        width:10px;
+        height:10px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        border:2px solid var(--text-color);
+        position: absolute;
+        left:0px;
+        top:5px;
+        background: var(--white-color);
+    }
+    .about_sec01_graphic li:first-child::after{ top:0 }
+
+    .about_sec01_graphic li:nth-child(2n+1)::after{
+        background: var(--sub1-color);
+    }
+    .about_sec01_graphic dl {margin-bottom: 30px;}
+    .about_sec01_graphic_img {height: 30px;}
+    .about_sec01_graphic dl dd h4{ margin: 5px 0 10px; }
+    .about_sec02_graphic li{ align-items: center; }
+    .about_sec02_graphic{ text-align: center; }
+    .about_sec02_graphic li:not(:last-child), .about_sec03_graphic li:not(:last-child){
+        padding-right: 0;
+    }
+    .about_sec02_graphic li, .about_sec03_graphic li{
+        padding-bottom: 30px;
+    }
+    .about_sec02_graphic li:not(:last-child)::after{
+        width: 100%;
+        display: block;
+        height: 1px;
+        position: initial;
+        margin-top: 20px;
+    }
+
+
     .portfolio_tab{ margin-top: 150px; }
     .portfolioList{gap: 5vw;}
     .portfolioList li{
