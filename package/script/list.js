@@ -5,8 +5,10 @@ const showList = () => {fetch('/package/data/data.json')
             const list = document.querySelector('.portfolioList');
             data.forEach(element => {
                 const li = document.createElement('li');
+               
+
                 li.innerHTML =`
-                    <a href="${element.link}" target="_blank">
+                    <a href="${element.link===""?`/page/portfolioView.html?nickname=${element.nickname}`:element.link}" target="_blank">
                         <div class="portfolio_image">
                             <img src="${element.thumbnail}" alt="${element.title}">
                         </div>
@@ -53,7 +55,7 @@ const showFillter = (e) =>{
             filterData.forEach(element => {
                 const li = document.createElement('li');
                 li.innerHTML =`
-                    <a href="${element.link}" target="_blank">
+                    <a href="${element.link===""?`/page/portfolioView.html?nickname=${element.nickname}`:element.link}" target="_blank">
                         <div class="portfolio_image">
                             <img src="${element.thumbnail}" alt="${element.title}">
                         </div>

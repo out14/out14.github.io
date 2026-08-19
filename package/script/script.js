@@ -67,7 +67,7 @@ async function mainPort(){
                                     <h3>${element.title}</h3>
                                     <p>${element.description}</p>
                                 </div>
-                                <a class="portfolio_info_btn" href="${element.link}" target="_blank">
+                                <a class="portfolio_info_btn" href="${element.link===""?`/page/portfolioView.html?nickname=${element.nickname}`:element.link}" target="_blank">
                                     <span></span>    
                                 </a>
                             </div>
@@ -120,8 +120,11 @@ async function mainPort(){
       });
 }
 
+
+
 loadHeader();
 loadFooter();
 mainPort();
+
 
     

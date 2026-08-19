@@ -2,6 +2,7 @@
     {
       "id": 1,
       "title": "야크마을 제주",
+      "nickname":"yak",
       "category": ["design","publishing"],
       "thumbnail": "/package/image/portfolio/main_yak.jpg",
       "description": "<span>Web</span><span>반응형</span>",
@@ -11,6 +12,7 @@
     {
       "id": 2,
       "title": "충남 테크노파크",
+      "nickname":"techno",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_techno.jpg",
       "description": "<span>Web</span><span>반응형</span>",
@@ -21,6 +23,7 @@
     {
       "id": 3,
       "title": "프리핀스",
+      "nickname":"frefins",
       "category": ["frontend"],
       "thumbnail": "/package/image/portfolio/main_frefins.png",
       "description": "<span>Typescript</span><span>React</span>",
@@ -30,6 +33,7 @@
     {
       "id": 4,
       "title": "이지네트웍스",
+      "nickname":"easy",
       "category": ["frontend"],
       "thumbnail": "/package/image/portfolio/main_easy.png",
       "description": "<span>Typescript</span><span>React</span>",
@@ -39,6 +43,7 @@
     {
       "id": 5,
       "title": "돌고",
+      "nickname":"dolgo",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_dolgo.png",
       "description": "<span>Hybrid App</span><span>적응형</span>",
@@ -48,6 +53,7 @@
     {
       "id": 6,
       "title": "드림온코리아",
+      "nickname":"dream",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_dream.jpg",
       "description": "<span>Web</span><span>적응형</span>",
@@ -57,6 +63,7 @@
     {
       "id": 7,
       "title": "현대카드노동조합",
+      "nickname":"hyundai",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_hyundai.jpg",
       "description": "<span>Web</span><span>반응형</span>",
@@ -66,6 +73,7 @@
     {
       "id": 8,
       "title": "나사렛 국제 병원",
+      "nickname":"nasaret",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_nasaret.jpg",
       "description": "<span>Web</span><span>반응형</span>",
@@ -75,6 +83,7 @@
     {
       "id": 8,
       "title": "허브 여성 병원",
+      "nickname":"herv",
       "category": ["design","publishing"],
       "thumbnail": "/package/image/portfolio/main_herv.jpg",
       "description": "<span>Web</span><span>반응형</span>",
@@ -84,6 +93,7 @@
     {
       "id": 9,
       "title": "베이비 드로우",
+      "nickname":"baby",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_babyDraw.jpg",
       "description": "<span>Web</span><span>반응형</span>",
