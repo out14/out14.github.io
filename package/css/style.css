@@ -132,8 +132,8 @@
     gap:10px;
 }
 .main_feature_list_item dt { 
-    width: 80px; 
-    height:80px;
+    width: 60px; 
+    height:60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,17 +142,17 @@
 }
 .main_feature_list_item dt::before{
     content: '';
-    width:80px;
-    height: 80px;
+    width:70px;
+    height: 70px;
     background: url('/package/image/main_icon_bg.png') center / contain no-repeat;
     position: absolute;
-    left:calc(50% - 40px);
+    left:calc(50% - 35px);
     top:0;
     z-index: -1;
 }
 .main_feature_list_item dt img { 
     max-width: 100%;  
-    max-height: 70px;
+    
 }
 .main_feature_list_item h3{
     font-size:18px;
