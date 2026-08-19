@@ -21,7 +21,7 @@ const showList = () => {fetch('/package/data/data.json')
                             </div>
                             <div class="portfolio_info_text">
                                 <h3>${element.title}</h3>
-                                <p>${element.description}</p>
+                                <p>${element.tag}</p>
                             </div>
                         </div>
                     </a>
@@ -68,7 +68,7 @@ const showFillter = (e) =>{
                             </div>
                             <div class="portfolio_info_text">
                                 <h3>${element.title}</h3>
-                                <p>${element.description}</p>
+                                <p>${element.tag}</p>
                             </div>
                         </div>
                     </a>

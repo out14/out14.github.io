@@ -5,7 +5,8 @@
       "nickname":"yak",
       "category": ["design","publishing"],
       "thumbnail": "/package/image/portfolio/main_yak.jpg",
-      "description": "<span>Web</span><span>반응형</span>",
+      "tag": "<span>Web</span><span>반응형</span>",
+      "description": "제주 야크 ",
       "year": "2026",
       "link":"https://www.yakmaeul.com/"
     },
@@ -15,7 +16,8 @@
       "nickname":"techno",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_techno.jpg",
-      "description": "<span>Web</span><span>반응형</span>",
+      "tag": "<span>Web</span><span>반응형</span>",
+      "description": "",
       "year": "2026",
       "link":"https://ctpcar.or.kr/"
       
@@ -26,7 +28,8 @@
       "nickname":"frefins",
       "category": ["frontend"],
       "thumbnail": "/package/image/portfolio/main_frefins.png",
-      "description": "<span>Typescript</span><span>React</span>",
+      "tag": "<span>Web</span><span>반응형</span>",
+      "description": "",
       "year": "2026",
       "link":""
     },
@@ -36,7 +39,8 @@
       "nickname":"easy",
       "category": ["frontend"],
       "thumbnail": "/package/image/portfolio/main_easy.png",
-      "description": "<span>Typescript</span><span>React</span>",
+      "tag": "<span>Web</span><span>반응형</span>",
+      "description": "",
       "year": "2026",
       "link":""
     },
@@ -46,7 +50,8 @@
       "nickname":"dolgo",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_dolgo.png",
-      "description": "<span>Hybrid App</span><span>적응형</span>",
+      "tag": "<span>Web</span><span>반응형</span>",
+      "description": "",
       "year": "2026",
       "link":"https://dolgo.org/"
     },
@@ -56,7 +61,8 @@
       "nickname":"dream",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_dream.jpg",
-      "description": "<span>Web</span><span>적응형</span>",
+      "tag": "<span>Web</span><span>반응형</span>",
+      "description": "",
       "year": "2026",
       "link":""
     },
@@ -66,7 +72,8 @@
       "nickname":"hyundai",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_hyundai.jpg",
-      "description": "<span>Web</span><span>반응형</span>",
+      "tag": "<span>Web</span><span>반응형</span>",
+      "description": "",
       "year": "2026",
       "link":""
     },
@@ -76,7 +83,8 @@
       "nickname":"nasaret",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_nasaret.jpg",
-      "description": "<span>Web</span><span>반응형</span>",
+      "tag": "<span>Web</span><span>반응형</span>",
+      "description": "",
       "year": "2026",
       "link":"https://www.nasaret.co.kr/"
     },
@@ -86,7 +94,8 @@
       "nickname":"herv",
       "category": ["design","publishing"],
       "thumbnail": "/package/image/portfolio/main_herv.jpg",
-      "description": "<span>Web</span><span>반응형</span>",
+      "tag": "<span>Web</span><span>반응형</span>",
+      "description": "",
       "year": "2026",
       "link":""
     },
@@ -96,7 +105,8 @@
       "nickname":"baby",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_babyDraw.jpg",
-      "description": "<span>Web</span><span>반응형</span>",
+      "tag": "<span>Web</span><span>반응형</span>",
+      "description": "",
       "year": "2026",
       "link":""
     }

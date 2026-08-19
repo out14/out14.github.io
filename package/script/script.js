@@ -65,7 +65,7 @@ async function mainPort(){
                             <div class="portfolio_info_cnt">
                                 <div class="portfolio_info_text">
                                     <h3>${element.title}</h3>
-                                    <p>${element.description}</p>
+                                    <p>${element.tag}</p>
                                 </div>
                                 <a class="portfolio_info_btn" href="${element.link===""?`/page/portfolioView.html?nickname=${element.nickname}`:element.link}" target="_blank">
                                     <span></span>    
