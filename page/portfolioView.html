@@ -44,10 +44,33 @@
                 const page =document.querySelector('.portfolioView')
 
                 page.innerHTML =`
-                    ${findData.title} 포트폴리오 상세 페이지
-                    <img src="${findData.thumbnail}" alt="포폴 상세 이미지"/>
-                    ${findData.description}
-                    ${findData.tag}
+                
+
+                    <div class="">
+                        <section class="sub_con port_view">
+                            <div class="port_view_banner" style="
+                                background:url('/package/image/portfolio/banner_${findData.nickname}.jpg')center no-repeat;
+                                background-size:cover;
+                            ">
+                                <div class="port_view_banner_cnt">
+                                    <h5>${findData.tag}</h5>
+                                    <h3>${findData.title}</h3>
+                                    <p>${findData.description}</p>
+                                </div>
+                            </div>
+                            <img src="${findData.thumbnail}" alt="포폴 화면" class="port_main_view">
+                        </section>     
+                    </div>
+
+
+                    <div class="port_gap">
+                        <div class="port_view_bg" style="
+                            background-image:url('/package/image/portfolio/bg_${findData.nickname}.jpg');
+                        "></div>
+                    </div>
+                    <div class="port_app_cnt">
+                        <img src="/package/image/portfolio/app_${findData.nickname}.png" alt="포폴 모바일 화면">
+                    </div>
                 `
 
             })

@@ -35,9 +35,15 @@ const showList = () => {fetch('/package/data/data.json')
         });
 }
 
-const showFillter = (e) =>{
+const showFillter = (type,button) =>{
+    
 
-    if(e==='all'){
+    document.querySelectorAll('.portfolio_tab button').forEach(btn => {
+        btn.classList.remove('on');
+    });
+    button.classList.add('on');
+
+    if(type==='all'){
         const list = document.querySelector('.portfolioList');
         list.innerHTML=''
         showList()
@@ -47,7 +53,7 @@ const showFillter = (e) =>{
         .then(data=>{
             const list = document.querySelector('.portfolioList');
         
-            const filterData = data.filter(i => i.category.includes(e));
+            const filterData = data.filter(i => i.category.includes(type));
 
             //console.log(filterData,'???',data,'!!',e)
             list.innerHTML=''
@@ -81,5 +87,5 @@ const showFillter = (e) =>{
 
 }
 
-showFillter()
+
 showList()

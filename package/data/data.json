@@ -28,8 +28,8 @@
       "nickname":"frefins",
       "category": ["frontend"],
       "thumbnail": "/package/image/portfolio/main_frefins.png",
-      "tag": "<span>Web</span><span>반응형</span>",
-      "description": "",
+      "tag": "<span>Web</span><span>ERP</span><span>React</span>",
+      "description": "프리핀스 렌탈 서비스의 영업, 구매, 재고, 정산 업무를 통합 관리하는 ERP 시스템입니다.<br>부서별로 분산되어 있던 데이터를 하나의 화면에서 연결해 업무 흐름을 표준화하고 실시간 현황 조회와 이력 추적으로 운영 효율 및 의사결정 속도를 높일 수 있도록 구축했습니다.",
       "year": "2026",
       "link":""
     },
@@ -39,8 +39,8 @@
       "nickname":"easy",
       "category": ["frontend"],
       "thumbnail": "/package/image/portfolio/main_easy.png",
-      "tag": "<span>Web</span><span>반응형</span>",
-      "description": "",
+      "tag": "<span>Web</span><span>ERP</span><span>React</span>",
+      "description": "이지네트웍스의 영업, 구매, 재고, 정산 업무를 통합 관리하는 ERP 시스템입니다.<br>부서별로 분산되어 있던 데이터를 하나의 화면에서 연결해 업무 흐름을 표준화하고 실시간 현황 조회와 이력 추적으로 운영 효율 및 의사결정 속도를 높일 수 있도록 구축했습니다.",
       "year": "2026",
       "link":""
     },
@@ -50,19 +50,19 @@
       "nickname":"dolgo",
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_dolgo.png",
-      "tag": "<span>Web</span><span>반응형</span>",
+      "tag": "<span>Hybrid App</span>",
       "description": "",
       "year": "2026",
       "link":"https://dolgo.org/"
     },
     {
       "id": 6,
-      "title": "드림온코리아",
-      "nickname":"dream",
-      "category": ["publishing"],
-      "thumbnail": "/package/image/portfolio/main_dream.jpg",
-      "tag": "<span>Web</span><span>반응형</span>",
-      "description": "",
+      "title": "두꺼비 실장",
+      "nickname":"doosil",
+      "category": ["publishing","frontend"],
+      "thumbnail": "/package/image/portfolio/main_doosil.jpg",
+      "tag": "<span>Web</span><span>반응형</span><span>React</span>",
+      "description": "IOS 앱, Android 앱 지원, 홈페이지(반응형) 구현, 3가지 플랫폼을 구현하였습니다.<br/>지도 검색, 각종 api 활용 및 구현하여 다양한 기능을 탑재하였습니다.",
       "year": "2026",
       "link":""
     },
@@ -106,7 +106,7 @@
       "category": ["publishing"],
       "thumbnail": "/package/image/portfolio/main_babyDraw.jpg",
       "tag": "<span>Web</span><span>반응형</span>",
-      "description": "",
+      "description": "베이비 드로우는 인플루언서들에게 각각의 URL을 제공하고 총판 형태로 정산을 하는 신개념 쇼핑 플랫폼입니다.<br/>정산, 샵인샵, 기타 기능까지 완벽하게 구현되어 있습니다.",
       "year": "2026",
       "link":""
     }
